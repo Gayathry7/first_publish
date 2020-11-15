@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(241, 233, 239);
+}
+.top{
+    height: 200px;  
+}
+
+.sign{
+    text-align: center;
+    width:38%;
+    height: 250px;
+    background-image: url(https://constant.myntassets.com/pwa/assets/img/banner_login_landing_300.jpg);
+    position: absolute;
+    top:200px;
+    left:35%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 10px 20px 10px;
+
+
+}
+
+.sign>div:nth-child(1){
+    text-align: left;
+    background-color: white;
+    height: 500px;
+    padding: 20px;
+    position: relative;
+    top: 250px;
+    left: 0;
+}
+.sign>div:nth-child(1)>div:nth-child(1){
+    font-weight: 500;
+}
+.sign>div:nth-child(1)>div:nth-child(2){
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 164, 164);
+    border: 1px solid rgb(187, 186, 186);
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    margin: 20px 0px;
+
+}
+.sign>div:nth-child(1)>div:nth-child(3){
+
+    background-color: rgb(243, 85, 111);
+    color: white;
+    
+    /* font-weight:bold ; */
+    height: 30px;
+    width: 100px;
+    padding: 10px 20px ;
+    position: absolute;
+    top: 200px;
+    left:220px;
+
+
+    
+}
